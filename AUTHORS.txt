@@ -1,0 +1,8 @@
+Thom : TO7-70 Emulator for Unix/X11, MacOS and Windows
+
+  1996       Sylvain Huet    (see http://www.sylvain-huet.com)
+  1999-2003  Eric Botcazou   (see http://nostalgies.thomsonistes.org/)
+
+PSPThom  : Porting on PSP
+
+  Ludovic Jacomme alias Zx   (see http://zx81.zx81.free.fr)

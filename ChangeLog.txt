@@ -1,0 +1,95 @@
+1.2.1
+
+- Improve global emulation speed !
+- Cheat support !
+- Add eboot music from NeXuS
+  (see http://www.jamendo.com/en/artist/nexus)
+- New render mode  x1.75
+- Add vertical shift feature 
+- Finally fix issue with "Home -> Exit" !
+- Add documentation for settings in help menu
+- The virtual keyboard is now usable in the file requester menu to
+  choose the first letter of the game you search !
+- Improve file requester with virtual keyboard to choose 
+  sequentially rom files beginning with a given letter
+- Text editor to write your own comments on games 
+- Display first comment line while browsing game files
+- Memory monitoring engine to find your own cheat code !
+- Text editor to modify the global cheat.txt file
+- Add option to disable auto fire in settings menu
+- Fix IR keyboard issue with fw >= 3.80 for PSP FAT
+
+1.2.0
+
+- Speed improvements
+- Load and save state
+- Display and save thumbnail images for each save state
+- Add vsync option
+- Add new render modes (such as fit height)
+- Analog pad can now be used in the file requester
+- Auto-fire mode, press RTrigger+X to switch it on/off
+- Add several new hotkeys :
+  . settings such as fps, render mode, auto fire speed
+    can now be directly modified inside the emulator
+    (no need to enter in the settings menu)
+  . quick save / quick load current state
+    (no need to enter in the main menu)
+- Default Hotkeys can now be set in the keyboard mapping menu
+  (useful to add hotkeys on existing/previous keyboard files)
+- Can now be compiled under linux for linux (usefull for dev/debug)
+
+1.1.0
+
+- IR keyboard support !
+- New speed limiter function
+- Add option to display fps rate
+- Now compatible with custom firmwares 3.x and PSP-slim
+- Add a simple intro splash screen  
+- Option to prevent the blue led to be displayed when 
+  L or R are pressed
+- Support iso8859-1 fonts in print text functions 
+  (might be useful to translate menus in german, french ...)
+- Bug fix and code cleaning
+
+
+1.0.4
+
+- New icons from Gelon
+- New background image
+- Disk image (in .sap format) are now supported !
+- Add option to choose the Basic rom version
+- New feature to toggle automatically 
+  between Basic rom version (depending if a tape or
+  a disk image is loaded)
+- Add new commands to run tape/disk games
+- Add a file (run.txt) to specify association between
+  the disk/tape name and the name of the command to 
+  run (for example file yyy.sap -> LOADM"xxx",,R)
+- Bug fix in the low battery watchdog
+
+1.0.3
+
+- New graphical functions with new smoother render modes.
+  It uses the PSP GPU for rendering, it does not run faster, 
+  but it's a lot smoother.
+- Bug fix in Rom file requester 
+- Bug fix in keyboard handler
+
+
+1.0.2
+
+- Bug fix in Render mode 1.25 (missing pixels)
+- Add help menu
+- Increase the volume
+
+1.0.1
+
+- Add Sound support
+- Add Render modes (Normal, x1.25, x1.5)
+- Add second joystick
+- Clean Virtual Keyboard
+- Code cleaning
+
+1.0.0
+
+- Intial release
